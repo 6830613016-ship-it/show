@@ -44,9 +44,7 @@ export default function MyFetch() {
                 />
             </div>
             <div>
-                <button
-                    className='border px-2 m-2 rounded'
-                    onClick={fetchUser}>Fetch</button>
+                <button className='border px-2 m-2 rounded' onClick={() => fetchUser()}>Fetch</button>
             </div>
         </div>
 
